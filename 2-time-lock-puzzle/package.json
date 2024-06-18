@@ -1,0 +1,17 @@
+{
+  "name": "2-time-lock-puzzle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx esbuild index.ts --bundle --platform=node --outfile=index.js",
+    "dev": "npm run build && node index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto-puzzle": "^5.0.2"
+  }
+}
